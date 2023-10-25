@@ -1,0 +1,29 @@
+.container {
+  width: 100%;
+  height: 100px;
+}
+
+.inner_container {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.links {
+  flex: 1;
+  height: 100px;
+  text-align: center;
+  list-style-type: none;
+  font-size: 25px;
+  padding-top: 25px;
+}
+
+.links .Link {
+  text-decoration: none;
+}
+
+.links .Link:hover {
+  text-decoration: underline;
+  transition: 300ms;
+}
